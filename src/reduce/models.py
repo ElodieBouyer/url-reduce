@@ -1,8 +1,7 @@
 from django.db import models
+from django_extensions.db.models import TimeStampedModel
 
-# Create your models here.
-
-class MinUrl(models.Model):
-	url_base = models.TextField()
-	url_min = models.CharField(max_length=200)
-	add_at = models.DateTimeField()
+class MinUrl(TimeStampedModel):
+    url = models.URLField(max_length=2048, null=False, blank=False)
+    token = models.CharField(max_length=16, null=False, blank=False)
+    

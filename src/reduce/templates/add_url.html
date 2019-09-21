@@ -2,7 +2,6 @@
 <form action="{% url 'add_url' %}" method="post">
 	{% csrf_token %}
 	
-    <label for="url-base">URL de base :</label>
-    <input id="url-base" type="text" name="url-base">
+    {{ form }}
     <input type="submit" value="Minifier">
 </form>
