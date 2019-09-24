@@ -13,7 +13,8 @@ Minify urls
 
 ## Usage - local
 
-Start the django server: `./venv/bin/python src/manage.py runserver`
+1. Start the django server: `./venv/bin/python src/manage.py runserver`
+2. Main URL: http://127.0.0.1:8000/
 
 ## Migrations
 
