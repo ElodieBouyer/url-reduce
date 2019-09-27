@@ -9,7 +9,7 @@ Minify urls
 ## Project requirements
 
 1. `python3 -m venv venv` for creating a virtual environments
-2. `./venv/bin/pip install -r requirements.txt` to install project externs libs in venv
+2. `./venv/bin/pip install -r requirements.pip` to install project externs libs in venv
 
 ## Usage - local
 
