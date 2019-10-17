@@ -20,4 +20,8 @@ Minify urls
 
 > This project use Django migration, see https://docs.djangoproject.com/fr/2.2/topics/migrations/
 
+`$ ./venv/bin/python src/manage.py makemigrations`
+
+`$ ./venv/bin/python src/manage.py migrate --run-syncdb`
+
 
